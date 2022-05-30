@@ -20,7 +20,7 @@ An API application consists of multiple layers. The code is divided in multiple 
 In this post I will start building the application from the lowest layer i.e model layer moving towards the topmost layer i.e. routes layer. The reason behind this is while developing an application its more easier to understand the code when you start it from the lower layer adding layers on top of it. But the actual flow begins from routes navigating towards the models via services and repositories.
 
 
-### Set up Falcon, SQLObject, gunicorn
+### Install Falcon, SQLObject, gunicorn
 
 Set up and activate a virtual environment using python3. Install Falcon, SQLObject and gunicorn.
 
