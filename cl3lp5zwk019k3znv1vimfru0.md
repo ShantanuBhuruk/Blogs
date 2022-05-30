@@ -25,7 +25,7 @@ We will use native methods to perform database operations for the APIs and gunic
 ### Prerequisites
 Before starting the REST API development Using Falcon you should have knowledge of Python, REST and MySql. You should have python3, MySql server installed on your machine.
 
-### Set up Falcon
+### Install Falcon and gunicorn
 
 Set up and activate a virtual environment using python3. Install Falcon and gunicorn
 
