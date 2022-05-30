@@ -244,4 +244,4 @@ Yaay we have just built a REST API with Falcon.
 ![celebration.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1653463101003/rZQuU5dQ1.gif align="left")
 
 ### Further Readings
-I will explain Falcon REST API Implementation with SQLObject in my next post [here](https://shantanubhuruk.hashnode.dev/rest-api-using-falcon-and-sqlobject) where SQLObject will act as our resource provider for the APIs. 
+I will explain Falcon REST API Implementation with SQLObject in my another post [here](https://shantanubhuruk.hashnode.dev/rest-api-using-falcon-and-sqlobject) where SQLObject will act as our resource provider for the APIs. 
