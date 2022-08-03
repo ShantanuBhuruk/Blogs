@@ -5,7 +5,7 @@ Sometimes you require to order your data in a particular way, and often the use 
 > If I am not wrong most of the people don't know the solution.
 
 
-I’m going to show a very simple way for this well know problem in my opinion (I’ve experienced that for 5 times at least ). In this article I am going to show how the **CASE** statement in **SQL** can help you order  your data exactly the way you want. One of the best methods for handling complex sorting is using CASE. The CASE statement is quite useful, as it lets you add if-else logic to your queries. We’ll use this logic SQL ORDER BY specific values.
+I’m going to show a very simple way for this well know problem in my opinion (I’ve experienced that for 5 times at least ). In this article I am going to show how the **CASE** statement in **SQL** can help you order  your data exactly the way you want. One of the best methods for handling complex sorting is using CASE. The CASE statement is quite useful, as it lets you add if-else logic to your queries. We’ll use this logic in SQL ORDER BY clause.
 
 Here is the syntax for the SQL CASE expression in ORDER BY clause:
 
