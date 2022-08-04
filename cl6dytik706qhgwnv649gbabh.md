@@ -56,14 +56,14 @@ Now, when this data is represented on the UI and sorted according to status then
 - Pending approval
 - Published
 
-But if we sort it on status column it would get displayed in different order as follows:
+But if we sort it on status column it would get displayed in different order, because we stored the status in form of numbers in database table and not the exact string, so when we perform sorting the data will be sorted on the ascending order of these numbers. The order of statuses after sorting will be as follows:
 
 - In Progress
 - Pending approval
 - Approved
 - Published
 
-So we need to sort this data with some custom sorting mechanism which we can do with the help of ORDER BY CASE statement. We will prepare our SQL statement to get the desired output. So following will be our SQL query using the ORDER BY CASE statement.
+So now we need to sort this data with some custom sorting mechanism which we can do with the help of ORDER BY CASE statement. We will prepare our SQL statement to get the desired output. So following will be our SQL query using the ORDER BY CASE statement.
 
 ```
 select * from report order by CASE
@@ -73,7 +73,7 @@ select * from report order by CASE
     when status = 4 then 'Published'
 END
 ```
-Now when we execute this query we will get the required output. Here in our output the records with status **"Aproved"** will appear at top then records with status **"In Progress"** then records with status **"Pending approval"** and records with status **"Published"** will appear at the bottom.
+Now when we execute this query we will get the required output. Here in our output the records with status **"Aproved"** will appear at top then records with status **"In Progress"** then records with status **"Pending approval"** and then the records with status **"Published"** will appear at the bottom.
 
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659552155606/MQDhZ2b1H.png align="left")
@@ -85,4 +85,4 @@ Now when we execute this query we will get the required output. Here in our outp
 
 ## We got it right....
 
-The **ORDER BY CASE** statement is a simple solution to our well known complicated looking problem.
+So this way the **ORDER BY CASE** statement is a simple solution to our well known complicated looking problem.
