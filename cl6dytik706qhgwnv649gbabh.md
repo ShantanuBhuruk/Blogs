@@ -49,7 +49,7 @@ Lets consider following sample data :
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659546974369/VUSWFqzIS.png align="left")
 
-Now we when this data is represented on the UI this and sorted according to status then it should be displayed in following order of statuses (alphabetical order):
+Now, when this data is represented on the UI and sorted according to status then it should be displayed in following order of statuses (alphabetical order):
 
 - Approved
 - In Progress
