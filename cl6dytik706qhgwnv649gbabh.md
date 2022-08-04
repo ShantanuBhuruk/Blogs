@@ -21,7 +21,7 @@ ORDER BY CASE
 ASC
 ```
 
-Lets take an example of the Banking industry or Reporting in investment institution - documents area. Such documents would always have a status. In our example we would be using such statuses:
+Lets take an example of the documentation process in of the enterprise application. Such documents would always have a status. In our example we would be using such statuses:
 
 - IN_PROGRESS
 - PENDING_APPROVAL
